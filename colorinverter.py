@@ -5,7 +5,7 @@ from pygame.locals import BLEND_RGB_SUB, BLEND_RGB_MIN, BLEND_RGB_MAX
 
 flag = {'sub': BLEND_RGB_SUB, 'min': BLEND_RGB_MIN, 'max': BLEND_RGB_MAX}
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     def invert_color(surface, mask = None, rel_pos = (0, 0), color = (255, 255, 255)):
         if mask == None:
             new_surf = Surface(surface.get_size())
